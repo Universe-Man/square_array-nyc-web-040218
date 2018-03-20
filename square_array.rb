@@ -4,8 +4,8 @@ def square_array(array)
   loop do
     squareArray[i] ** 2
     i += 1
-  if i >= squareArray.length
-    break
-  end
+    if i >= squareArray.length
+      break
+    end
   end
 end
