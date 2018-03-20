@@ -1,8 +1,10 @@
 def square_array(array)
   i = 0
   squareArray = array
-  squareArray.each do |i|
-    squareArray[i]  2
-end
-
+  loop do
+    squareArray[i] ** 2
+    i += 1
+  if i >= squareArray.length
+    break
+  end
 end
