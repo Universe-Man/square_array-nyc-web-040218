@@ -7,4 +7,5 @@ def square_array(array)
   if i >= squareArray.length
     break
   end
+  end
 end
